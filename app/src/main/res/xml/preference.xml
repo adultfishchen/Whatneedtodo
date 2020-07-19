@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Session to decide to play music or not -->
+    <PreferenceCategory android:title="音樂">
+        <SwitchPreference
+            android:key="ref_key_mute"
+            android:title="是否靜音" />
+
+        <!-- Session to choose music to play -->
+        <ListPreference
+            android:entries="@array/music_text"
+            android:entryValues="@array/music_value"
+            android:key="ref_key_music"
+            android:title="歌曲選擇" />
+    </PreferenceCategory>
+
+    <!-- Session to choose sort method -->
+    <ListPreference
+        android:entries="@array/sort_text"
+        android:entryValues="@array/sort_value"
+        android:key="ref_key_sort"
+        android:title="排序" />
+
+</PreferenceScreen>

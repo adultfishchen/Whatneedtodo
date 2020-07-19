@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Strings for the MainActivity -->
+    <string name="app_name">What Need To Do</string>
+    <string name="main_activity_name">All Tasks</string>
+    <string name="add_task_activity_name">Add a New Task</string>
+    <string name="answer_daily_question">Answer Daily Question</string>
+    <string name="set_app_function">Set App Function</string>
+    <string name="show_task_detailed">Show Task Detailed</string>
+    <string name="update_task">Update Task</string>
+
+    <string name="edit_task_description">Describe your taskEntry&#8230;</string>
+    <string name="importance_string">Importance</string>
+
+
+    <string name="add_button">ADD</string>
+    <string name="update_button">UPDATE</string>
+    <string name="hide_date">Deadline (yyyy-MM-dd)</string>
+
+</resources>

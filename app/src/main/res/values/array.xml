@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Define list items  -->
+<resources>
+    <string-array name="music_text">
+        <item>歌曲1</item>
+        <item>歌曲2</item>
+        <item>歌曲3</item>
+    </string-array>
+    <string-array name="music_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="sort_text">
+        <item>Task</item>
+        <item>Importance</item>
+    </string-array>
+
+    <string-array name="sort_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
